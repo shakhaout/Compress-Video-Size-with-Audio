@@ -7,5 +7,5 @@
 # Run below command
 
 ```
-$ python compress_video_size_with_audio.py -input input_video.mp4 -output demo.mp4
+python compress_video_size_with_audio.py -input input_video.mp4 -output demo.mp4
 ```
