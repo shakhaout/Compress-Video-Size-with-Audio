@@ -29,7 +29,7 @@ def PlayVideo(video_path):
     FPS = cap.get(cv2.CAP_PROP_FPS)
     print('FPS:',FPS)
     player = MediaPlayer(video_path)
-    fourcc = cv2.VideoWriter_fourcc(*'XVID')
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     out = cv2.VideoWriter('temp_output.mp4',fourcc,FPS,(480,320))
     i=1
     pbar =tqdm(total=frame_count)
